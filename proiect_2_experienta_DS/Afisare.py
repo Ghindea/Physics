@@ -35,9 +35,10 @@ slope = np.polyfit(sqrtU,D1,1)[0]
 d1_corrected = (2 * h * L) / (math.sqrt(zme) * slope)
 
 print('\n')
-print("slope of D1 = ", '%.5f' % slope)
+print("slope of D1  = ", '%.5f' % slope)
+print("d1_corrected = ", d1_corrected)
 print("Δd1 = ", '%.15f' % abs(d1 - d1_corrected))
-
+print()
 #plot fit for D2
 coefs  = np.polyfit(sqrtU, D2, deg=1)
 poly   = np.poly1d(coefs)
@@ -48,7 +49,8 @@ plt.plot(sqrtU, D2, 'ro',)
 slope = np.polyfit(sqrtU,D2,1)[0]
 d2_corrected = (2 * h * L) / (math.sqrt(zme) * slope)
 
-print("slope of D2 = ", '%.5f' % slope)
+print("slope of D2  = ", '%.5f' % slope)
+print("d2_corrected = ", d2_corrected)
 print("Δd2 = ", '%.15f' % abs(d2 - d2_corrected))
 print('\n')
 
@@ -59,6 +61,7 @@ plt.scatter(sqrtU, D2)
 #graph extra
 plt.xlabel('1/sqrt(U)\n(V^-1/2)')
 plt.ylabel('Diametru\n(cm)')
+
 plt.grid()
 plt.legend()
 

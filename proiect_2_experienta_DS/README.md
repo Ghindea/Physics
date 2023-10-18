@@ -23,15 +23,15 @@ no     |  U (kV)  |1/sqrt(U) (V^-1/2) | D1 (cm)  |D2 (cm) | λ1exp (pm)  | λ2ex
 3      |     4.5  |          0.014907 |    2.45  |   4.10 |  19.327778  |  18.677778 | 18.280919 |
 4      |     5.0  |          0.014142 |    2.35  |   3.90 |  18.538889  |  17.766667 | 17.342802 |
 
-
-slope of D1 =  122.96354
-
+```
+slope of D1  =  122.96354
+d1_corrected =  2.6927230564403323e-10
 Δd1 =  0.000000000056272
 
-slope of D2 =  266.28733
-
+slope of D2  =  266.28733
+d2_corrected =  1.2434191066477284e-10
 Δd2 =  0.000000000001342
-
+```
 <img src="https://github.com/Ghindea/Physics/blob/main/proiect_2_experienta_DS/Figure_1.png">
 
 
