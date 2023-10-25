@@ -13,7 +13,6 @@ Coeficienții de atenuare pentru plumb și cupru sunt:
 ```
 μPb =  0.09448959837249388
 μCu =  0.04976271145956228
-
 ```
 
 <img src="./Figure_1.png">
